@@ -8,11 +8,15 @@
 
 #import "SimpleFactoryPatternController.h"
 #import "CalcluateFactory.h"
+#import "UIViewController+FindSuperView.h"
 @interface SimpleFactoryPatternController ()
 @property (weak, nonatomic) IBOutlet UITextField *numA;
 @property (weak, nonatomic) IBOutlet UITextField *operator;
 @property (weak, nonatomic) IBOutlet UITextField *numB;
 @property (weak, nonatomic) IBOutlet UILabel *resultLabel;
+@property (weak, nonatomic) IBOutlet UIView *yellowView;
+@property (weak, nonatomic) IBOutlet UIView *blueView;
+@property (weak, nonatomic) IBOutlet UIView *redView;
 
 @end
 
@@ -20,7 +24,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+   // Do any additional setup after loading the view.
+    NSLog(@"%@",[self findNearestSuperViewFrom:self.redView to:self.view]);
 }
 
 - (void)didReceiveMemoryWarning {
