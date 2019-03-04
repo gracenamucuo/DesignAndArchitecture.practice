@@ -10,4 +10,10 @@
 
 @implementation FruitDecorator
 
+- (double)getPrice
+{
+    NSLog(@"水果加了5元");
+    return 5 + [self.component getPrice];
+}
+
 @end

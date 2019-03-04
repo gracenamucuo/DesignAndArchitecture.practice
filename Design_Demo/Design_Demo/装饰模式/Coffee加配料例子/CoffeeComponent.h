@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface CoffeeComponent : NSObject
 
+- (double)getPrice;
+
 @end
 
 NS_ASSUME_NONNULL_END

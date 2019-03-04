@@ -27,6 +27,7 @@
 		5A082ED421F847C200015759 /* SelectAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A082ED321F847C100015759 /* SelectAlert.m */; };
 		5A082ED621F847CD00015759 /* SelectAlert.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A082ED521F847CD00015759 /* SelectAlert.xib */; };
 		5A082ED821F849B500015759 /* ConfirmAlert.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A082ED721F849B500015759 /* ConfirmAlert.xib */; };
+		5A11FF0E222D72F9008696C5 /* CoffeeDecoratorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A11FF0D222D72F9008696C5 /* CoffeeDecoratorController.m */; };
 		5A147732222BBFB3004EFDFE /* AbstractSubject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A147731222BBFB3004EFDFE /* AbstractSubject.m */; };
 		5A147734222BC19B004EFDFE /* MobileContractApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8B349C20AD7F9F005EB56D /* MobileContractApp.m */; };
 		5A147737222BC2EF004EFDFE /* NewsPaper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A147736222BC2EF004EFDFE /* NewsPaper.m */; };
@@ -167,6 +168,8 @@
 		5A082ED321F847C100015759 /* SelectAlert.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectAlert.m; sourceTree = "<group>"; };
 		5A082ED521F847CD00015759 /* SelectAlert.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectAlert.xib; sourceTree = "<group>"; };
 		5A082ED721F849B500015759 /* ConfirmAlert.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConfirmAlert.xib; sourceTree = "<group>"; };
+		5A11FF0C222D72F9008696C5 /* CoffeeDecoratorController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoffeeDecoratorController.h; sourceTree = "<group>"; };
+		5A11FF0D222D72F9008696C5 /* CoffeeDecoratorController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoffeeDecoratorController.m; sourceTree = "<group>"; };
 		5A147730222BBFB3004EFDFE /* AbstractSubject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractSubject.h; sourceTree = "<group>"; };
 		5A147731222BBFB3004EFDFE /* AbstractSubject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractSubject.m; sourceTree = "<group>"; };
 		5A147733222BBFFA004EFDFE /* ObserverProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObserverProtocol.h; sourceTree = "<group>"; };
@@ -877,6 +880,8 @@
 				5AAF3174222D0999003C9EA4 /* SoyDecorator.m */,
 				5AAF3176222D09BC003C9EA4 /* FruitDecorator.h */,
 				5AAF3177222D09BC003C9EA4 /* FruitDecorator.m */,
+				5A11FF0C222D72F9008696C5 /* CoffeeDecoratorController.h */,
+				5A11FF0D222D72F9008696C5 /* CoffeeDecoratorController.m */,
 			);
 			path = "Coffee加配料例子";
 			sourceTree = "<group>";
@@ -1220,6 +1225,7 @@
 				5AAF3168222D07C0003C9EA4 /* CoffeeComponent.m in Sources */,
 				5A03F77120AC2D510097BC4F /* FactoryMethodCalculateAdd.m in Sources */,
 				5AAF317B222D0AF3003C9EA4 /* UIViewController+FindSuperView.m in Sources */,
+				5A11FF0E222D72F9008696C5 /* CoffeeDecoratorController.m in Sources */,
 				5A355C1120AD237500A26F2F /* CoreDataUserInfo.m in Sources */,
 				5AAF3172222D0989003C9EA4 /* MilkDecorator.m in Sources */,
 				5ABC5FDC20AD672D00D04B09 /* MessageEmail.m in Sources */,

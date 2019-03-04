@@ -12,6 +12,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface CondimentDecorator : CoffeeComponent//继承于组件的装饰者抽象类
 
+- (instancetype)initWithComponent:(CoffeeComponent *)component;
+@property (nonatomic,strong)CoffeeComponent *component;
+
+
 @end
 
 NS_ASSUME_NONNULL_END

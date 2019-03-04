@@ -10,4 +10,10 @@
 
 @implementation MilkDecorator
 
+- (double)getPrice
+{
+    NSLog(@"牛奶加了2元");
+    return 2 + [self.component getPrice];
+}
+
 @end

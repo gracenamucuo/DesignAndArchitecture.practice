@@ -10,4 +10,12 @@
 
 @implementation CondimentDecorator
 
+- (instancetype)initWithComponent:(CoffeeComponent *)component
+{
+    if (self = [super init]) {
+        _component = component;
+    }
+    return self;
+}
+
 @end

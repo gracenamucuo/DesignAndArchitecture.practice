@@ -10,4 +10,9 @@
 
 @implementation CoffeeComponent//抽象组件，可以写默认实现的方法，也可以用协议实现
 
+- (double)getPrice
+{
+    return 0.f;
+}
+
 @end

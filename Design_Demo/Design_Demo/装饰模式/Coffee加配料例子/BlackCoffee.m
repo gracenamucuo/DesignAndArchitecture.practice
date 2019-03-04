@@ -10,4 +10,9 @@
 
 @implementation BlackCoffee
 
+- (double)getPrice
+{
+    return 5;
+}
+
 @end

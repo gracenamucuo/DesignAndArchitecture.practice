@@ -10,4 +10,10 @@
 
 @implementation SoyDecorator
 
+- (double)getPrice
+{
+    NSLog(@"豆浆加了3元");
+    return 3 + [self.component getPrice];
+}
+
 @end
