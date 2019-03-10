@@ -49,6 +49,7 @@
 		5A409B6820ADCA22004A04FF /* ConcreteFlyDecrator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A409B6720ADCA22004A04FF /* ConcreteFlyDecrator.m */; };
 		5A409B6B20ADCA3B004A04FF /* ConcreteTalkDecrator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A409B6A20ADCA3B004A04FF /* ConcreteTalkDecrator.m */; };
 		5A44869C20AAD4050084C8B3 /* UIViewController+loadFromStoryBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A44869B20AAD4050084C8B3 /* UIViewController+loadFromStoryBoard.m */; };
+		5A4918C82234A366007EA0D5 /* ResetCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4918C72234A366007EA0D5 /* ResetCommand.m */; };
 		5A4A54AF20CA1B85002786EB /* StrategyPatternController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4A54AE20CA1B85002786EB /* StrategyPatternController.m */; };
 		5A4A54B220CA22AF002786EB /* AbstractDuck.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4A54B120CA22AF002786EB /* AbstractDuck.m */; };
 		5A4A54B520CA22BD002786EB /* RedDuck.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4A54B420CA22BD002786EB /* RedDuck.m */; };
@@ -103,6 +104,10 @@
 		5A8B349720AD7C3E005EB56D /* AppleMobile.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8B349620AD7C3E005EB56D /* AppleMobile.m */; };
 		5A8B34A020AD7FB3005EB56D /* MobileWorkApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8B349F20AD7FB3005EB56D /* MobileWorkApp.m */; };
 		5A8B34A320AD7FC0005EB56D /* MobileGameApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8B34A220AD7FC0005EB56D /* MobileGameApp.m */; };
+		5A9228EA22340CDD007BF80A /* OpenCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9228E922340CDD007BF80A /* OpenCommand.m */; };
+		5A9228EE22340DD1007BF80A /* MainBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9228ED22340DD1007BF80A /* MainBoard.m */; };
+		5A9228F122340FF9007BF80A /* ComputerBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9228F022340FF9007BF80A /* ComputerBox.m */; };
+		5A9228F42234119B007BF80A /* ComputerClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9228F32234119B007BF80A /* ComputerClient.m */; };
 		5AAF3168222D07C0003C9EA4 /* CoffeeComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AAF3167222D07C0003C9EA4 /* CoffeeComponent.m */; };
 		5AAF316C222D0838003C9EA4 /* BlackCoffee.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AAF316B222D0838003C9EA4 /* BlackCoffee.m */; };
 		5AAF316F222D093D003C9EA4 /* CondimentDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AAF316E222D093D003C9EA4 /* CondimentDecorator.m */; };
@@ -214,6 +219,8 @@
 		5A409B6A20ADCA3B004A04FF /* ConcreteTalkDecrator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConcreteTalkDecrator.m; sourceTree = "<group>"; };
 		5A44869A20AAD4050084C8B3 /* UIViewController+loadFromStoryBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+loadFromStoryBoard.h"; sourceTree = "<group>"; };
 		5A44869B20AAD4050084C8B3 /* UIViewController+loadFromStoryBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+loadFromStoryBoard.m"; sourceTree = "<group>"; };
+		5A4918C62234A366007EA0D5 /* ResetCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResetCommand.h; sourceTree = "<group>"; };
+		5A4918C72234A366007EA0D5 /* ResetCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResetCommand.m; sourceTree = "<group>"; };
 		5A4A54AD20CA1B85002786EB /* StrategyPatternController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StrategyPatternController.h; sourceTree = "<group>"; };
 		5A4A54AE20CA1B85002786EB /* StrategyPatternController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StrategyPatternController.m; sourceTree = "<group>"; };
 		5A4A54B020CA22AF002786EB /* AbstractDuck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractDuck.h; sourceTree = "<group>"; };
@@ -321,6 +328,15 @@
 		5A8B349F20AD7FB3005EB56D /* MobileWorkApp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobileWorkApp.m; sourceTree = "<group>"; };
 		5A8B34A120AD7FC0005EB56D /* MobileGameApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobileGameApp.h; sourceTree = "<group>"; };
 		5A8B34A220AD7FC0005EB56D /* MobileGameApp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobileGameApp.m; sourceTree = "<group>"; };
+		5A9228E722340C81007BF80A /* ComputerCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComputerCommand.h; sourceTree = "<group>"; };
+		5A9228E822340CDD007BF80A /* OpenCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenCommand.h; sourceTree = "<group>"; };
+		5A9228E922340CDD007BF80A /* OpenCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenCommand.m; sourceTree = "<group>"; };
+		5A9228EC22340DD1007BF80A /* MainBoard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainBoard.h; sourceTree = "<group>"; };
+		5A9228ED22340DD1007BF80A /* MainBoard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainBoard.m; sourceTree = "<group>"; };
+		5A9228EF22340FF9007BF80A /* ComputerBox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComputerBox.h; sourceTree = "<group>"; };
+		5A9228F022340FF9007BF80A /* ComputerBox.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComputerBox.m; sourceTree = "<group>"; };
+		5A9228F22234119B007BF80A /* ComputerClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComputerClient.h; sourceTree = "<group>"; };
+		5A9228F32234119B007BF80A /* ComputerClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComputerClient.m; sourceTree = "<group>"; };
 		5AAF3166222D07C0003C9EA4 /* CoffeeComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoffeeComponent.h; sourceTree = "<group>"; };
 		5AAF3167222D07C0003C9EA4 /* CoffeeComponent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoffeeComponent.m; sourceTree = "<group>"; };
 		5AAF316A222D0838003C9EA4 /* BlackCoffee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlackCoffee.h; sourceTree = "<group>"; };
@@ -560,12 +576,8 @@
 			children = (
 				5A5B2FC420B567150027114E /* CommandPatternController.h */,
 				5A5B2FC520B567150027114E /* CommandPatternController.m */,
-				5A5B2FDF20B571210027114E /* Customer.h */,
-				5A5B2FE020B571210027114E /* Customer.m */,
-				5A5B2FCA20B567FE0027114E /* 抽象命令类 */,
-				5A5B2FCB20B5680B0027114E /* 具体命令类 */,
-				5A5B2FC920B567E50027114E /* 调用者 */,
-				5A5B2FC720B5671F0027114E /* 接收者 */,
+				5A9228E622340C33007BF80A /* 点菜例子 */,
+				5A9228EB22340CE2007BF80A /* 电脑开机例子 */,
 			);
 			path = "命令模式";
 			sourceTree = "<group>";
@@ -863,6 +875,37 @@
 				5A8B34A220AD7FC0005EB56D /* MobileGameApp.m */,
 			);
 			path = "实现部分";
+			sourceTree = "<group>";
+		};
+		5A9228E622340C33007BF80A /* 点菜例子 */ = {
+			isa = PBXGroup;
+			children = (
+				5A5B2FDF20B571210027114E /* Customer.h */,
+				5A5B2FE020B571210027114E /* Customer.m */,
+				5A5B2FCA20B567FE0027114E /* 抽象命令类 */,
+				5A5B2FCB20B5680B0027114E /* 具体命令类 */,
+				5A5B2FC920B567E50027114E /* 调用者 */,
+				5A5B2FC720B5671F0027114E /* 接收者 */,
+			);
+			path = "点菜例子";
+			sourceTree = "<group>";
+		};
+		5A9228EB22340CE2007BF80A /* 电脑开机例子 */ = {
+			isa = PBXGroup;
+			children = (
+				5A9228E722340C81007BF80A /* ComputerCommand.h */,
+				5A9228E822340CDD007BF80A /* OpenCommand.h */,
+				5A9228E922340CDD007BF80A /* OpenCommand.m */,
+				5A4918C62234A366007EA0D5 /* ResetCommand.h */,
+				5A4918C72234A366007EA0D5 /* ResetCommand.m */,
+				5A9228EC22340DD1007BF80A /* MainBoard.h */,
+				5A9228ED22340DD1007BF80A /* MainBoard.m */,
+				5A9228EF22340FF9007BF80A /* ComputerBox.h */,
+				5A9228F022340FF9007BF80A /* ComputerBox.m */,
+				5A9228F22234119B007BF80A /* ComputerClient.h */,
+				5A9228F32234119B007BF80A /* ComputerClient.m */,
+			);
+			path = "电脑开机例子";
 			sourceTree = "<group>";
 		};
 		5AAF3169222D07DD003C9EA4 /* Coffee加配料例子 */ = {
@@ -1219,6 +1262,7 @@
 				5A4A54B520CA22BD002786EB /* RedDuck.m in Sources */,
 				5A6CE7BE20A529A40046585D /* main.m in Sources */,
 				5A7BFDC120AE6E8D0035D99F /* AdapterTestView.m in Sources */,
+				5A9228EE22340DD1007BF80A /* MainBoard.m in Sources */,
 				5A355C0F20AD237500A26F2F /* SqliteUserInfo.m in Sources */,
 				5AAF3178222D09BC003C9EA4 /* FruitDecorator.m in Sources */,
 				5A03F75820AC06C10097BC4F /* CalculateMinus.m in Sources */,
@@ -1229,6 +1273,7 @@
 				5A355C1120AD237500A26F2F /* CoreDataUserInfo.m in Sources */,
 				5AAF3172222D0989003C9EA4 /* MilkDecorator.m in Sources */,
 				5ABC5FDC20AD672D00D04B09 /* MessageEmail.m in Sources */,
+				5A9228F122340FF9007BF80A /* ComputerBox.m in Sources */,
 				5A7BFDBE20AE65470035D99F /* AdapterPatternController.m in Sources */,
 				5ABC5FCF20AD5BB400D04B09 /* BridgePatternController.m in Sources */,
 				5A56FC6520CA6BCF0082303B /* Coffee.m in Sources */,
@@ -1243,6 +1288,7 @@
 				5A4A54BC20CA23E0002786EB /* ConcreteFlyBehavior.m in Sources */,
 				5A355C0E20AD237500A26F2F /* User.m in Sources */,
 				5A4A54B820CA22C9002786EB /* GreenDuck.m in Sources */,
+				5A9228F42234119B007BF80A /* ComputerClient.m in Sources */,
 				5A409B6820ADCA22004A04FF /* ConcreteFlyDecrator.m in Sources */,
 				5A355C1020AD237500A26F2F /* CoreDataSearchInfo.m in Sources */,
 				5A03F76920AC2AD70097BC4F /* FactoryMethodController.m in Sources */,
@@ -1289,10 +1335,12 @@
 				5A8B349120AD7C15005EB56D /* AbstractMobile.m in Sources */,
 				5A355C1320AD237500A26F2F /* City.m in Sources */,
 				5A8B34A020AD7FB3005EB56D /* MobileWorkApp.m in Sources */,
+				5A4918C82234A366007EA0D5 /* ResetCommand.m in Sources */,
 				5AEE37AD20CCB66D00F68536 /* MediatorPatternController.m in Sources */,
 				5A03F76120AC0E920097BC4F /* CalcluateFactory.m in Sources */,
 				5A5B2FDE20B56DC90027114E /* DuckOrder.m in Sources */,
 				5A082ECB21F8476F00015759 /* AlertFactory.m in Sources */,
+				5A9228EA22340CDD007BF80A /* OpenCommand.m in Sources */,
 				5A082ED121F847B100015759 /* ConfirmAlert.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
